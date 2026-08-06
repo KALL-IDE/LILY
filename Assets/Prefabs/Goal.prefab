@@ -1,0 +1,11 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1003 &GoalPrefab
+GameObject:
+  m_Name: Goal_Prefab_Placeholder
+  m_TagString: "Goal"
+  m_Active: 1
+
+# Placeholder prefab: create a real prefab in the Editor by creating a Sprite
+# GameObject for the salmon target and setting Tag = Goal. Then drag it into
+# Assets/Prefabs/ to create the prefab.

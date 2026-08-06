@@ -1,0 +1,11 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1002 &CratePrefab
+GameObject:
+  m_Name: Crate_Prefab_Placeholder
+  m_TagString: "Crate"
+  m_Active: 1
+
+# Placeholder prefab: create a real prefab in the Editor by creating a Sprite
+# GameObject, adding a BoxCollider2D (non-trigger), attaching the Crate script and
+# setting the Tag to Crate. Then drag it into Assets/Prefabs to create the prefab.

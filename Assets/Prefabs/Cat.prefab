@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &CatPrefab
+GameObject:
+  m_Name: Cat_Prefab_Placeholder
+  m_TagString: "Player"
+  m_Active: 1
+
+# Placeholder prefab: create a real prefab in the Editor by creating a Sprite
+# GameObject, adding a BoxCollider2D, attaching the PlayerController script and
+# setting the Tag to Player. Then drag it into Assets/Prefabs to create the prefab.
+# This placeholder exists so you can see the intended structure in the repo.

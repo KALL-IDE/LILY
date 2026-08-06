@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component: []
+  m_Layer: 0
+  m_Name: "MainMenu"
+  m_TagString: "Untagged"
+  m_Active: 1
+
+# NOTE: This is a lightweight placeholder scene file added by the assistant.
+# Open Unity, then open this file and replace the placeholder GameObjects with the
+# real UI elements following the instructions in Assets/Scenes/MainMenu_INSTRUCTIONS.txt
+# If Unity reports the file as invalid, create a new Scene in the Editor and follow
+# the instructions in that text file — the real scene will be functionally equivalent.
