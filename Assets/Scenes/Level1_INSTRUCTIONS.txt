@@ -1,0 +1,36 @@
+Level1 Scene - Quick placement instructions
+
+Open Unity and create a new scene (File -> New Scene) or open SampleScene and Save As Level1.
+
+Grid and camera
+- Set Main Camera to Orthographic, Position (0,0,-10), Size 5 (or whatever frames the level).
+- Turn on the Grid (2D mode) to snap placements to integer coordinates.
+
+Walls (optional)
+- Create a Sprite -> Square for a wall tile. Add BoxCollider2D and set SpriteRenderer Color to dark.
+- Place wall tiles at integer positions to form a small arena (example coordinates below).
+
+Example small arena (integer coordinates)
+- Top row: x = -4..4 at y = 3
+- Bottom row: x = -4..4 at y = -3
+- Left column: x = -4 at y = -2..2
+- Right column: x = 4 at y = -2..2
+
+Player (Cat)
+- Create an empty Sprite, assign a pink square sprite, add BoxCollider2D, attach PlayerController script, set Tag = Player.
+- Position at (-2, 0)
+
+Crates
+- Create crate GameObjects using the Crate prefab you will create, or create a Sprite, add BoxCollider2D, attach Crate script, set Tag = Crate.
+- Example crate positions: (0,0), (1,0)
+
+Goals (Salmon)
+- Create goal sprites and set Tag = Goal.
+- Example goal positions: (2,0), (3,0)
+
+GameManager
+- Create an empty GameObject named GameManager, attach GameManager.cs.
+- (Optional) Add an AudioSource to GameManager for background music; set Loop = true and assign a clip.
+- Assign the WinPanel later when you create UI.
+
+Save the scene as Assets/Scenes/Level1.unity

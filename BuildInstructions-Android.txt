@@ -1,0 +1,14 @@
+Android Build Instructions (short)
+
+1. Install Android Build Support in Unity Hub (required). Also install Android SDK & NDK or use Unity's embedded SDK.
+2. File -> Build Settings -> Android -> Switch Platform.
+3. Player Settings -> Other Settings:
+   - Company Name / Product Name
+   - Package Name: com.yourname.lily
+   - Minimum API Level: API 21+ recommended
+   - Target Architecture: ARM64 (recommended)
+4. Add scenes to Scenes In Build: MainMenu and Level1.
+5. If you want me to produce an APK for testing, I can build a debug APK and upload it; say "make APK".
+
+Keystore / signing:
+- For debug testing, Unity will use a default debug keystore. For Play Store release you'll need to provide your own keystore.

@@ -1,0 +1,11 @@
+MainMenu Scene - Quick setup
+
+Create a new scene named MainMenu and save it as Assets/Scenes/MainMenu.unity.
+
+UI:
+- Canvas -> Add a Panel center-screen. Add Title text "LILY" and a Play button and Quit button.
+- Attach MainMenuController.cs to an empty object or to the Canvas.
+- Wire Play button OnClick -> MainMenuController.PlayGame
+- Wire Quit button OnClick -> MainMenuController.QuitGame
+
+Add this scene to Build Settings (File -> Build Settings -> Add Open Scenes) and ensure Level1 is added too.

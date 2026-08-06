@@ -1,0 +1,17 @@
+UI & Mobile D-pad - Step-by-step
+
+Create on-screen D-pad
+1. Right-click Hierarchy -> UI -> Canvas. Set Canvas Scaler to Scale With Screen Size (Reference: 1080x1920) and Render Mode = Screen Space - Overlay.
+2. Inside Canvas, create four Buttons: UpButton, DownButton, LeftButton, RightButton.
+3. Position and anchor them to the bottom-left as a D-pad. Use icons or text arrows.
+4. Remove OnClick events. Instead add the MobileMoveButton.cs component to each button and set dx/dy:
+   - Up: dx=0 dy=1
+   - Down: dx=0 dy=-1
+   - Left: dx=-1 dy=0
+   - Right: dx=1 dy=0
+5. Ensure an EventSystem exists (Unity will add it when creating UI if none exists).
+
+Win UI
+1. Create a Panel inside Canvas named WinPanel. Add Text "You got the salmon!" and buttons for Restart and Quit.
+2. Wire Restart OnClick -> GameManager.OnRestartButton, Quit OnClick -> GameManager.OnQuitToMenu.
+3. Disable WinPanel by default (uncheck active).

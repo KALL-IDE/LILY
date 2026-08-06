@@ -1,0 +1,9 @@
+Project opening checklist
+
+After you clone and check out feature/pink-cat-puzzle:
+1. Open Unity Hub -> Add -> point to the cloned repository folder.
+2. Open the project in Unity (recommended Unity 2022.3 LTS).
+3. Unity will import packages and compile scripts. If you see errors, open Console and paste errors here.
+4. Follow the Scene instructions in Assets/Scenes/ to create the prefabs and the Level1 scene if not already present.
+
+If you want, I can create and push actual .unity scene files and prefab binaries too — but those are large and include .meta entries. I can add them if you prefer a fully prepared project. Say "add scenes & prefabs" and I will push them next.

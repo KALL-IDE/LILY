@@ -1,0 +1,19 @@
+Prefabs - How to create the prefabs used by the project
+
+Cat (Player) prefab
+1. GameObject -> 2D Object -> Sprite. Name it Cat.
+2. Assign a sprite (pink square) and add BoxCollider2D.
+3. Add PlayerController (from Assets/Scripts).
+4. Tag the object Player.
+5. Drag Cat from Hierarchy into Assets/Prefabs/ to create the prefab.
+
+Crate prefab
+1. Create a Sprite named Crate.
+2. Add BoxCollider2D (not isTrigger) and add the Crate.cs script.
+3. Tag = Crate.
+4. Drag to Assets/Prefabs/Crate.prefab.
+
+Goal prefab
+1. Create a Sprite named Goal (salmon/orange color).
+2. Tag = Goal.
+3. Drag to Assets/Prefabs/Goal.prefab.
