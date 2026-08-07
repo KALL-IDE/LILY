@@ -14,4 +14,3 @@ rect_position = Vector2( 20, 20 )
 [node name="Button_Play" type="Button" parent="MainMenu/UI"]
 text = "Play"
 rect_position = Vector2( 20, 80 )
-

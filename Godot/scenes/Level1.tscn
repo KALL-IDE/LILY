@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
 
 [ext_resource path="res://scripts/Player.gd" type="Script" id=1]
 [ext_resource path="res://scripts/Crate.gd" type="Script" id=2]
@@ -9,10 +9,21 @@
 script = ExtResource( 1 )
 position = Vector2( -200, 0 )
 
+[node name="PlayerCollision" type="CollisionShape2D" parent="Level1/Player"]
+shape = SubResource( 1 )
+
 [node name="Crate" type="RigidBody2D" parent="Level1"]
 script = ExtResource( 2 )
 position = Vector2( 0, 0 )
 
+[node name="CrateCollision" type="CollisionShape2D" parent="Level1/Crate"]
+shape = SubResource( 2 )
+
 [node name="Goal" type="Node2D" parent="Level1"]
 position = Vector2( 200, 0 )
 
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 20, 20 )
